@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+   <h1>Imagens dinamicas</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+   <picture>
+    <source media="(max-width: 750px)" srcset="imagens-dinamicas/P.png" type="image/png"> <!--source media type serve para aumentar e diminuir o tamanhos das imagens em aparelhos diferentes-->
+    <source media="(max-width: 1050px)" srcset="imagens-dinamicas/M.png" type="image/png">
+    <img src="imagens-dinamicas/G.png" alt="Imagem flexivel">
+   </picture>
+   <h1>Repruduzindo audios</h1>
+   <p>Vamos aprender a reproduzir audios em HTML 5.</p>
+   <audio preload="metadata" autoplay loop controls>
+    <source src="imagens-dinamicas/midias/hino-do-flamengo.mp3" type="audio/mpeg">
+    <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="imagens-dinamicas/midias/hino-do-flamengo.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
+<!-- Compativel com os seguintes formatos  MP3 WAV OGG-->
+</body>
+</html>
