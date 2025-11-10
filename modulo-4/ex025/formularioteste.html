@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de todos Formulários</title>
+</head>
+<body>
+    
+<h1>Testando todos formulários</h1>
+
+<form action="cadastro.php" autocomplete="on" method="post">
+
+    <p>
+        <label for="inome">Nome: </label>
+        <input type="text" name="nome" id="inome" autocomplete="name" required minlength="6" maxlength="15" placeholder="Nome de usuário">
+    </p>
+
+    <p>
+        <label for="iemail">E-mail:</label>
+        <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="E-mail">
+    </p>
+
+    <p>
+        <label for="isenha">Senha: </label>
+        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="15" placeholder="Senha">
+    </p>
+
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="imas">
+        <label for="imas">Masculino</label> <br>
+        <input type="radio" name="sexo" id="ifem">
+        <label for="ifem">Feminino</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Jogos favoritos</legend>
+        <input type="checkbox" name="thelast" id="ithe">
+        <label for="ithe">The last of us</label> <br>
+        <input type="checkbox" name="godofwar" id="igod">
+        <label for="igod">God of war</label> <br>
+        <input type="checkbox" name="gtav" id="igta">
+        <label for="igta">Gta 5</label> <br>
+        <input type="checkbox" name="roblox" id="iro">
+        <label for="iro">Roblox</label> <br>
+        <input type="checkbox" name="fortnite" id="ifort">
+        <label for="ifort">Fortnite</label>
+    </fieldset>
+
+    <p>
+        <label for="icor">Cor: </label>
+        <input type="color" name="cor" id="icor">
+    </p>
+
+    <p>
+        <label for="idata">Data: </label>
+        <input type="date" name="data" id="idata">
+    </p>
+
+    <p>
+        <label for="itempo">Hora: </label>
+        <input type="time" name="tempo" id="itempo">
+    </p>
+
+    <p>
+        <label for="inota">Nota: </label>
+        <input type="number" name="nota" id="inota" min="0" max="10" step="0.5">
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    </p>
+
+</form>
+
+</body>
+</html>
