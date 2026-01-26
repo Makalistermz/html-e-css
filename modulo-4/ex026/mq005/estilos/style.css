@@ -11,7 +11,7 @@ body, html {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(87, 87, 87);
 }
 
 header h1 {
@@ -20,8 +20,8 @@ header h1 {
 }
 
 #burguer {
-    background-color: rgb(68, 68, 68);
     display: block;
+    background-color: rgb(68, 68, 68);
     color: white;
     text-align: center;
     padding: 10px;
