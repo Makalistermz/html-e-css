@@ -14,18 +14,42 @@ body {
     inline-size: 100vw;
 }
 
+@media screen and (max-width: 700px) {
+    h1 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    header {
+        flex-flow: column nowrap;
+    }
+
+    header nav a {
+        
+    }
+}
+
 header {
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
-    border: 1px dotted black;
+    font-size: 2.3em;
 }
 
 header nav {
-    border: 1px solid black;
+    align-self: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
 }
 
 main {
