@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conteúdo Flex</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Exemplo de conteúdo flexível</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, autem. Consequatur sequi ducimus exercitationem quidem laborum facilis culpa quibusdam ea voluptate laudantium eum iure placeat illum, assumenda hic. Dolore, eaque!</p>
+    <header>
+        <h1>Exemplo de conteúdo flexível</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, autem. Consequatur sequi ducimus exercitationem quidem laborum facilis culpa quibusdam ea voluptate laudantium eum iure placeat illum, assumenda hic. Dolore, eaque!</p>
+    </header>
 
-    <main>
-        <h2>Elemento Media -> Text</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab blanditiis dignissimos, autem corporis provident officia numquam unde magnam quo nulla. Accusamus accusantium natus, rerum eum repudiandae voluptatem quidem earum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam voluptas harum excepturi quas sint sed praesentium sequi, at reiciendis maiores culpa corrupti fuga libero rem nam natus numquam error mollitia.</p>
-        <img src="" alt="">
+    <main class="flexivel">
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h2>Elemento Media -> Text</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab blanditiis dignissimos, autem corporis provident officia numquam unde magnam quo nulla. Accusamus accusantium natus, rerum eum repudiandae voluptatem quidem earum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam voluptas harum excepturi quas sint sed praesentium sequi, at reiciendis maiores culpa corrupti fuga libero rem nam natus numquam error mollitia.</p>
+                </div>
+                <div class="media">
+                    <img src="pexels-weekendplayer-186461.jpg" alt="gráfio">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h2>Elemento Text -> Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi sapiente soluta officia facilis suscipit deleniti dolor, possimus animi laudantium magnam fugiat doloremque iusto accusantium ea est voluptates? Ex, nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum assumenda iste officiis soluta quasi fuga atque, rem maxime repellendus corporis dolor nihil voluptatibus, vero perferendis sit exercitationem, inventore hic.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequatur, nobis quam, quo eius architecto, omnis ducimus ratione laudantium ab obcaecati hic. Amet architecto incidunt perspiciatis nisi, nulla quaerat asperiores.</p>
+                </div>
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VBGMnFHRqcY?si=dsED747_qDzdPjk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
     </main>
+
+    <footer>
+        <h2>Conteúdo normal</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, blanditiis at. Obcaecati fugit delectus natus magni in nesciunt ullam aspernatur deserunt non? Delectus repudiandae non magni assumenda vero, doloribus possimus.</p>
+    </footer>
 </body>
 </html>
