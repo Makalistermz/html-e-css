@@ -63,6 +63,12 @@ header nav a {
     color: white;
     background-color: rgb(63, 63, 63);
     padding: 10px;
+
+    &:hover {
+        color: rgb(63, 63, 63);
+        background-color: white;
+        transition: background-color 1s;
+    }
 }
 
 main {
