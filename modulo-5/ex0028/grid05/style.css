@@ -13,8 +13,7 @@
 
 .caixa2 {
     background-color: green;
-    grid-row: span 1 / -1;
-    grid-column: 1 / 3;
+    grid-area: 2 / 1 / 4 / 3;
 }
 
 .caixa3 {
