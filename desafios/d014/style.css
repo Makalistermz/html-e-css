@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    margin: 20px;
+    grid-template: repeat(10, 100px) / repeat(15, auto);
+}
+
+.item {
+    
+}
+
+#a {
+    background-color: red;
+    grid-area: 1/1/2/16;
+}
+
+#b {
+    background-color: blueviolet;
+    grid-area: 2/1/4/16;
+}
+
+#c {
+    background-color: aqua;
+    grid-area: 4/1/10/12;
+}
+
+#d {
+    background-color: burlywood;
+    grid-area: 4/12/10/16;
+}
+
+#e {
+    background-color: chartreuse;
+    grid-area: 10/1/11/16;
+}
