@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    margin: 20px;
-    grid-template: repeat(10, 100px) / repeat(15, auto);
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
 }
 
 .item {
@@ -12,25 +20,25 @@
 
 #a {
     background-color: red;
-    grid-area: 1/1/2/16;
+    grid-area: 1/1/2/-1;
 }
 
 #b {
     background-color: blueviolet;
-    grid-area: 2/1/4/16;
+    grid-area: 2/1/3/-1;
 }
 
 #c {
     background-color: aqua;
-    grid-area: 4/1/10/12;
+    grid-area: 3/1/-2/2;
 }
 
 #d {
     background-color: burlywood;
-    grid-area: 4/12/10/16;
+    grid-area: 3/-2/-2/-1;
 }
 
 #e {
     background-color: chartreuse;
-    grid-area: 10/1/11/16;
+    grid-area: 4/1/5/-1;
 }
